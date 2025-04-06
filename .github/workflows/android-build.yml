@@ -26,5 +26,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
-          name: kanban-app.apk
+          name: kanban-app
           path: app/build/outputs/apk/debug/app-debug.apk
